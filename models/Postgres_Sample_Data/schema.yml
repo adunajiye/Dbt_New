@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: Foodics__Data
+    description: 'This is a demo database using postgres'
+    database: Foodics__Data 
+    schema: public  
+    tables:
+      - name: Branch
+        description: 'This Table contains QFA Sandbox Data'
+    
